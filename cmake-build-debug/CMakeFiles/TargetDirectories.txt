@@ -1,0 +1,5 @@
+/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/task_1.dir
+/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir
+/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/task_3.dir
+/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/edit_cache.dir

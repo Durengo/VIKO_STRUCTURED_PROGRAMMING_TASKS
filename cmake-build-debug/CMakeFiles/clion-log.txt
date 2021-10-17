@@ -1,0 +1,4 @@
+/home/seb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/bin/make -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug
