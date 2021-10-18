@@ -67,11 +67,12 @@ void Interface::Admin_CUI(User_List *list)
         break;
       case 3:
         PTC("\nEntering user info modification.\n");
-        Service_Manager::Admin_Modify_User_Account_Info(list);
+        Service_Manager::Admin_Modify_Services_Value(list);
+
         break;
       case 4:
         PTC("\nEntering user configuration.\n");
-        Service_Manager::Admin_Modify_Services_Value(list);
+        Service_Manager::Admin_Modify_User_Account_Info(list);
         break;
       default:
         break;
@@ -205,13 +206,13 @@ void Service_Manager::Admin_Modify_Services_Value(User_List *list)
         case 0:
           break;
         case 1:
-          Modify_User_Storage_Services_Value(list, Data_Manager::getCurrent_User_ID());
+          Modify_User_Storage_Services_Value(list, User_ID);
           break;
         case 2:
-          Modify_User_Database_Services_Value(list, Data_Manager::getCurrent_User_ID());
+          Modify_User_Database_Services_Value(list, User_ID);
           break;
         case 3:
-          Modify_User_Bandwidth_Services_Value(list, Data_Manager::getCurrent_User_ID());
+          Modify_User_Bandwidth_Services_Value(list, User_ID);
           break;
         default:
           continue;
@@ -492,6 +493,7 @@ void Service_Manager::Delete_Account(User_List *list, int Current_UserID)
       case 1:
         std::cout << "\n" << GetUser->getUsername() << " has been deleted! \n";
         User_List::Delete_Current_User_By_ID(list, Current_UserID);
+        Data_Manager::setCurrent_User_ID(0);
         istrue = false;
         break;
       default:

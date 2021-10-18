@@ -4,7 +4,7 @@
 //This module will interact with all other modules by calling their functions - character user interface (CUI).
 
 #include <iostream> //Include basic printing from standard library.
-//#include <string>
+#include <string>
 //#include "User_List.h"
 
 class Console {
