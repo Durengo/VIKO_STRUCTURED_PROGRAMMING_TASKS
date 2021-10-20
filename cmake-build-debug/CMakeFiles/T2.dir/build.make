@@ -66,154 +66,122 @@ include CMakeFiles/T2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/T2.dir/flags.make
 
-CMakeFiles/T2.dir/cmake_pch.hxx.gch: CMakeFiles/T2.dir/flags.make
-CMakeFiles/T2.dir/cmake_pch.hxx.gch: CMakeFiles/T2.dir/cmake_pch.hxx.cxx
-CMakeFiles/T2.dir/cmake_pch.hxx.gch: CMakeFiles/T2.dir/cmake_pch.hxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/T2.dir/cmake_pch.hxx.gch"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/cmake_pch.hxx.gch -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.cxx
-
-CMakeFiles/T2.dir/cmake_pch.hxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/cmake_pch.hxx.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.cxx > CMakeFiles/T2.dir/cmake_pch.hxx.i
-
-CMakeFiles/T2.dir/cmake_pch.hxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/cmake_pch.hxx.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.cxx -o CMakeFiles/T2.dir/cmake_pch.hxx.s
-
 CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o: ../TASK_2/TASK_2.cpp
-CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp
 
 CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp > CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp > CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp -o CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp -o CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/User_List.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/User_List.cpp.o: ../TASK_2/User_List.cpp
-CMakeFiles/T2.dir/TASK_2/User_List.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/User_List.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/T2.dir/TASK_2/User_List.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/User_List.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/T2.dir/TASK_2/User_List.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/User_List.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp
 
 CMakeFiles/T2.dir/TASK_2/User_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/User_List.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp > CMakeFiles/T2.dir/TASK_2/User_List.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp > CMakeFiles/T2.dir/TASK_2/User_List.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/User_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/User_List.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp -o CMakeFiles/T2.dir/TASK_2/User_List.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp -o CMakeFiles/T2.dir/TASK_2/User_List.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/User.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/User.cpp.o: ../TASK_2/User.cpp
-CMakeFiles/T2.dir/TASK_2/User.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/User.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/T2.dir/TASK_2/User.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/User.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/T2.dir/TASK_2/User.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/User.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp
 
 CMakeFiles/T2.dir/TASK_2/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/User.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp > CMakeFiles/T2.dir/TASK_2/User.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp > CMakeFiles/T2.dir/TASK_2/User.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/User.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp -o CMakeFiles/T2.dir/TASK_2/User.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp -o CMakeFiles/T2.dir/TASK_2/User.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o: ../TASK_2/Data_Manager.cpp
-CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp
 
 CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp > CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp > CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp -o CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp -o CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Console.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Console.cpp.o: ../TASK_2/Console.cpp
-CMakeFiles/T2.dir/TASK_2/Console.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Console.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/T2.dir/TASK_2/Console.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Console.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/T2.dir/TASK_2/Console.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Console.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp
 
 CMakeFiles/T2.dir/TASK_2/Console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Console.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp > CMakeFiles/T2.dir/TASK_2/Console.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp > CMakeFiles/T2.dir/TASK_2/Console.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Console.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp -o CMakeFiles/T2.dir/TASK_2/Console.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp -o CMakeFiles/T2.dir/TASK_2/Console.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Logging.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Logging.cpp.o: ../TASK_2/Logging.cpp
-CMakeFiles/T2.dir/TASK_2/Logging.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Logging.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/T2.dir/TASK_2/Logging.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Logging.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/T2.dir/TASK_2/Logging.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Logging.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp
 
 CMakeFiles/T2.dir/TASK_2/Logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Logging.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp > CMakeFiles/T2.dir/TASK_2/Logging.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp > CMakeFiles/T2.dir/TASK_2/Logging.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Logging.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp -o CMakeFiles/T2.dir/TASK_2/Logging.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp -o CMakeFiles/T2.dir/TASK_2/Logging.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o: ../TASK_2/Test_Unit.cpp
-CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp
 
 CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp > CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp > CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp -o CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp -o CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o: ../TASK_2/Service_Manager.cpp
-CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp
 
 CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp > CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp > CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp -o CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp -o CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.s
 
 CMakeFiles/T2.dir/TASK_2/Interface.cpp.o: CMakeFiles/T2.dir/flags.make
 CMakeFiles/T2.dir/TASK_2/Interface.cpp.o: ../TASK_2/Interface.cpp
-CMakeFiles/T2.dir/TASK_2/Interface.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx
-CMakeFiles/T2.dir/TASK_2/Interface.cpp.o: CMakeFiles/T2.dir/cmake_pch.hxx.gch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/T2.dir/TASK_2/Interface.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -o CMakeFiles/T2.dir/TASK_2/Interface.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/T2.dir/TASK_2/Interface.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/T2.dir/TASK_2/Interface.cpp.o -c /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp
 
 CMakeFiles/T2.dir/TASK_2/Interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/T2.dir/TASK_2/Interface.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp > CMakeFiles/T2.dir/TASK_2/Interface.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp > CMakeFiles/T2.dir/TASK_2/Interface.cpp.i
 
 CMakeFiles/T2.dir/TASK_2/Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/T2.dir/TASK_2/Interface.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp -o CMakeFiles/T2.dir/TASK_2/Interface.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp -o CMakeFiles/T2.dir/TASK_2/Interface.cpp.s
 
 # Object files for target T2
 T2_OBJECTS = \
@@ -230,7 +198,6 @@ T2_OBJECTS = \
 # External object files for target T2
 T2_EXTERNAL_OBJECTS =
 
-T2: CMakeFiles/T2.dir/cmake_pch.hxx.gch
 T2: CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o
 T2: CMakeFiles/T2.dir/TASK_2/User_List.cpp.o
 T2: CMakeFiles/T2.dir/TASK_2/User.cpp.o
@@ -242,7 +209,7 @@ T2: CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o
 T2: CMakeFiles/T2.dir/TASK_2/Interface.cpp.o
 T2: CMakeFiles/T2.dir/build.make
 T2: CMakeFiles/T2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable T2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable T2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/T2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
