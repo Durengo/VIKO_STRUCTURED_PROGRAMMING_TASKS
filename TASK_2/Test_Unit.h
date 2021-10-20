@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "Logging.h"
 #include "Console.h"
 #include "User_List.h"
 #include "Data_Manager.h"
@@ -18,6 +19,7 @@ static int Global_Tick = 0;
 //Global_Tick = 4 - Service Manager test;
 //Global_Tick = 5 - Interface test;
 //Global_Tick = 6 - General Login/Logout test;
+//Globat_Tick = 7 - Logging test;
 
 void setGlobalTick(int T);
 
@@ -32,3 +34,5 @@ void Service_Manager_Test();
 void Interface_Test();
 
 void Login_Logout_Test();
+
+void Logging_Test();

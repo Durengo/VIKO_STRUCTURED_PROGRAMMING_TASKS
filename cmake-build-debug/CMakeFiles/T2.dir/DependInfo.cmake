@@ -9,14 +9,25 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Console.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Console.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Console.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Data_Manager.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Interface.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Interface.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Interface.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Logging.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Logging.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Logging.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Service_Manager.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/TASK_2.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/Test_Unit.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/User.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/User.cpp.o"
   "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_2/User_List.cpp" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/User_List.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/TASK_2/User_List.cpp.o"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.cxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.gch"
+  "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx" "/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.gch"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

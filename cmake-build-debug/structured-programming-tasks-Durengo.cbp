@@ -227,6 +227,12 @@
 		<Unit filename="/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/TASK_3/TASK_3.cpp">
 			<Option target="task_3"/>
 		</Unit>
+		<Unit filename="/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx">
+			<Option target="T2"/>
+		</Unit>
+		<Unit filename="/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx.cxx">
+			<Option target="T2"/>
+		</Unit>
 		<Unit filename="/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

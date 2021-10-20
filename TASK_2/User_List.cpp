@@ -3,7 +3,7 @@
 User_List::User_List()
         : head(nullptr), tail(nullptr)
 {
-  Console::PTC("\nUser List constructed!\n");
+  C::PTC("\nUser List constructed!\n");
 }
 
 void User_List::Display_List(User_List *list)
@@ -23,7 +23,7 @@ void User_List::Create_User(User_List *list, const std::string &username, const 
   if (Data_Manager::getTotal_Users() >= 1) { //After the admin is created this if is executed everytime.
     if (!Search_For_Username_Duplicate(list,
                                        username)) { //Call function Search_ForUsername_Duplicate; This function checks for duplicate usernames; if false is returned we stop creating a new user.
-      Console::PTC("\nCannot create a new user with an already used username!\n"); //Prompt user.
+      C::PTC("\nCannot create a new user with an already used username!\n"); //Prompt user.
       return;
     }
   }
@@ -95,11 +95,11 @@ void User_List::deleteByPos(User_List *list, int position)
 { //Function for deleting an element in a linked listed by a given position.
   if (position > list->length() || position <=
                                    0) { //First we must check if the entered position exceeds the total amount of elements in a linked list; if true we throw an exception and return to the function call.
-    std::cout << "\n\n!EXCEPTION! TRYING TO DELETE AN OUT OF BOUNDS VALUE\n\n";
+    C::PTC("\n\n!EXCEPTION! TRYING TO DELETE AN OUT OF BOUNDS VALUE\n\n");
     return;
   } else if (position ==
              1) { //If the entered position is 1, that means we want to delete the initial (head) element of the linked list.
-    std::cout << "\n\n!EXCEPTION! CANNOT DELETE ADMIN\n\n"; //User Admin cannot be deleted.
+    C::PTC("\n\n!EXCEPTION! CANNOT DELETE ADMIN\n\n"); //User Admin cannot be deleted.
     //deleteHead(list); //Call deleteHead function.
   } else if (list->length() ==
              position) { //If the entered position is the last element in the linked list, that means we want to delete the terminal (tail) element of the linked list.
@@ -130,18 +130,17 @@ bool User_List::UserLogin(User_List *list)
 
   Data_Manager::setCurrent_User_ID(0);
 
-  std::cout << "\nEnter Username: "; //Prompt user to enter a username for a new User class object.
-  std::cin >> username;
-  std::cout << "\nEnter Password: "; //Prompt user to enter a password for a new User class object.
-  std::cin >> password;
-
+  C::PTC("\nEnter Username: "); //Prompt user to enter a username for a new User class object.
+  C::GIBS(username);
+  C::PTC("\nEnter Password: "); //Prompt user to enter a password for a new User class object.
+  C::GIBS(password);
 
   if (Search_For_User_Login(list, username,
                             password)) { //Call the Search_For_User_Login function; if the function returns true, continue.
-    std::cout << "\nLogin successful.\n";
+    C::PTC("\nLogin successful.\n");
     return true;
   } else { //If the Search_For_User_Login function fails, we return.
-    std::cout << "\nNo such user found.\n";
+    C::PTC("\nNo such user found.\n");
     return false;
   }
 }
@@ -166,7 +165,7 @@ bool User_List::Search_For_User_Login(User_List *list, std::string &username,
 void User_List::Delete_Current_User_By_ID(User_List *list, int Current_UserID)
 {
   if (Current_UserID == 0) {
-    std::cout << "\n\n!EXCEPTION! CANNOT DELETE ADMIN\n\n";
+    C::PTC("\n\n!EXCEPTION! CANNOT DELETE ADMIN\n\n");
     return;
   }
   int count = 0;

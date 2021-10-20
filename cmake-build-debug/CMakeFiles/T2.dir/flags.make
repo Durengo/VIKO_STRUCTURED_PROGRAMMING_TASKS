@@ -8,3 +8,23 @@ CXX_INCLUDES =
 
 CXX_FLAGS = -g -std=gnu++11
 
+# PCH options: CMakeFiles/T2.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/TASK_2.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/User_List.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/User.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Data_Manager.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Console.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Logging.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Service_Manager.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/T2.dir/TASK_2/Interface.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/seb/CLionProjects/VIKO_STRUCTURED_PROGRAMMING_TASKS/cmake-build-debug/CMakeFiles/T2.dir/cmake_pch.hxx
+

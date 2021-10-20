@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/T2.dir/TASK_2/Test_Unit.cpp.o"
   "CMakeFiles/T2.dir/TASK_2/User.cpp.o"
   "CMakeFiles/T2.dir/TASK_2/User_List.cpp.o"
+  "CMakeFiles/T2.dir/cmake_pch.hxx.gch"
   "T2"
   "T2.pdb"
 )

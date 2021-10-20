@@ -5,8 +5,6 @@
 #include "User_List.h"
 #include "Service_Manager.h"
 
-#define C Console
-
 class Interface : public Console {
 public:
 
@@ -22,6 +20,5 @@ public:
 
   static int
   Account_Information_Manager_For_Admin_And_User(); //Function CUI for both the admin and the user to editing account information such as: username, password or delete account.
-  //static int Account_Information_Manager_For_User();
 
 };

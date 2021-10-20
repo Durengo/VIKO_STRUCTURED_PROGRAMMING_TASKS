@@ -1,13 +1,9 @@
-#include "Console.h"
-
 //Run tests:
 #include "Test_Unit.h"
 
 int main()
 {
-  Console::PTC("\nHello world!\n");
+  Logging log;
 
-  setGlobalTick(6);//- Module Test.
-  return 0;
+  //setGlobalT(0);//- Module Test.
 }
-

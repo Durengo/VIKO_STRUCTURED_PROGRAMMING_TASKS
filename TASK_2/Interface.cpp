@@ -20,16 +20,13 @@ void Interface::Login_Prompt(User_List *list)
       case 1:
         PTC("\nLogin selected!\n");
         User_List::UserLogin(list);
-//        if(User_List::UserLogin(list)){
-//          istrue = false;
-//        }
         break;
       case 2:
         PTC("\nCreate new account selected!\n");
         PTC("\nEnter a username:");
-        std::cin >> username;
+        GIBS(username);
         PTC("\n\nEnter a password:");
-        std::cin >> password;
+        GIBS(password);
         User_List::Create_User(list, username, password);
         break;
       default:
@@ -97,7 +94,7 @@ void Interface::User_CUI(User_List *list)
         PTC("\nEntering user configuration.\n");
         Service_Manager::User_Modify_User_Account_Info(list);
         if (Data_Manager::getCurrent_User_ID() == 0) {
-          std::cout << "\n\nYou have been automatically logged out!\n\n";
+          PTC("\n\nYou have been automatically logged out!\n\n");
           istrue = false;
           break;
         }
@@ -120,7 +117,7 @@ int Interface::Service_Manager_For_Admin()
 {
   PTC("\nWhich service do you want to modify?\n",
       "(0) Exit; (1) Cloud Storage Amount; (2) Cloud Database Amount; (3) Cloud Bandwidth Amount:\n");
-  int input = C::Get_Input_By_INT(0, 3);
+  int input = Get_Input_By_INT(0, 3);
 
   switch (input) {
     case 0:
@@ -143,7 +140,7 @@ int Interface::Service_Manager_For_Admin()
 int Interface::Service_Manager_For_User()
 {
   PTC("\n(0) to exit; (1) Buy or refund Cloud Storage; (2) Buy or refund Cloud Database; (3) Buy or refund Cloud Bandwidth.\n");
-  int input = C::Get_Input_By_INT(0, 3);
+  int input = Get_Input_By_INT(0, 3);
 
   switch (input) {
     case 0:
@@ -166,7 +163,7 @@ int Interface::Service_Manager_For_User()
 int Interface::Exit_Add_Remove()
 {
   PTC("\n(0) Exit; (1) Add; (2) remove;\n");
-  int input = C::Get_Input_By_INT(0, 2);
+  int input = Get_Input_By_INT(0, 2);
 
   switch (input) {
     case 0:
@@ -188,14 +185,13 @@ int Interface::Exit_Add_Remove()
 void Service_Manager::Admin_Modify_Services_Value(User_List *list)
 {
   while (true) {
-    std::cout << "\nCurrent Service Statistics:\n";
+    C::PTC("\nCurrent Service Statistics:\n");
     Print_Service_Statistics(list);
-    std::cout << "Current users:\n";
+    C::PTC("Current users:\n");
     User_List::Display_List(list);
-    std::cout << "\nSelect a user to modify services' value, (0) to exit: ";
-    int count = 0;
-    std::cin >> count;
-    std::cout << std::endl;
+    C::PTC("\nSelect a user to modify services' value, (0) to exit: ");
+    int count = C::Get_Input_By_INT();
+    C::PTC("\n");
 
     if (count == 0) {
       break;
@@ -218,7 +214,7 @@ void Service_Manager::Admin_Modify_Services_Value(User_List *list)
           continue;
       }
     } else {
-      std::cout << "\nNo such user!\n";
+      C::PTC("\nNo such user!\n");
       continue;
     }
   }
@@ -352,12 +348,11 @@ int Interface::Account_Information_Manager_For_Admin_And_User()
 void Service_Manager::Admin_Modify_User_Account_Info(User_List *list)
 {
   while (true) {
-    std::cout << "\nCurrent users:\n";
+    C::PTC("\nCurrent users:\n");
     User_List::Display_List(list);
-    std::cout << "\nSelect a user to modify, (0) to exit: ";
-    int count = 0;
-    std::cin >> count;
-    std::cout << std::endl;
+    C::PTC("\nSelect a user to modify, (0) to exit: ");
+    int count = C::Get_Input_By_INT();
+    C::PTC("\n");
 
     if (count == 0) {
       break;
@@ -385,7 +380,7 @@ void Service_Manager::Admin_Modify_User_Account_Info(User_List *list)
         }
       }
     } else {
-      std::cout << "\nNo such user!\n";
+      C::PTC("\nNo such user!\n");
       continue;
     }
   }
@@ -398,9 +393,9 @@ void Service_Manager::User_Modify_User_Account_Info(User_List *list)
   }
   //int count = User::Current_User_ID;
   User *CurrentUser = User_List::Get_User_By_ID(list, Data_Manager::getCurrent_User_ID());
-  std::cout << "\nUsername: " << CurrentUser->getUsername() << "\n";
-  std::cout << "\nPassword: " << CurrentUser->getPassword() << "\n";
-  std::cout << "\nUnique ID: " << CurrentUser->getUniqueId() << "\n";
+  C::PTC("\nUsername: ", CurrentUser->getUsername(), "\n");
+  C::PTC("\nPassword: ", CurrentUser->getPassword(), "\n");
+  C::PTC("\nUnique ID: ", CurrentUser->getUniqueId(), "\n");
   Current_User_ID = CurrentUser->getUniqueId();
   bool istrue = true;
   while (istrue) {
@@ -430,9 +425,9 @@ void Service_Manager::Modify_Username(User_List *list, int Current_UserID)
   User *GetUser = User_List::Get_User_By_ID(list, Current_UserID);
 
   std::string new_username;
-  std::cout << "\nEnter new username: ";
-  std::cin >> new_username;
-  std::cout << "\nChange " << GetUser->getUsername() << " to " << new_username << " ?\n";
+  C::PTC("\nEnter new username: ");
+  C::GIBS(new_username);
+  C::PTC("\nChange ", GetUser->getUsername(), " to ", new_username, " ?\n");
   bool istrue = true;
   while (istrue) {
     int input = C::Get_Input_Yes_Or_No();
@@ -441,7 +436,7 @@ void Service_Manager::Modify_Username(User_List *list, int Current_UserID)
         istrue = false;
         break;
       case 1:
-        std::cout << "\n" << GetUser->getUsername() << " changed to " << new_username << "\n";
+        C::PTC("\n", GetUser->getUsername(), " changed to ", new_username, "\n");
         GetUser->setUsername(new_username);
         istrue = false;
         break;
@@ -456,9 +451,9 @@ void Service_Manager::Modify_Password(User_List *list, int Current_UserID)
   User *GetUser = User_List::Get_User_By_ID(list, Current_UserID);
 
   std::string new_password;
-  std::cout << "\nEnter new password: ";
-  std::cin >> new_password;
-  std::cout << "\nChange " << GetUser->getPassword() << " to " << new_password << " ?\n";
+  C::PTC("\nEnter new password: ");
+  C::GIBS(new_password);
+  C::PTC("\nChange ", GetUser->getPassword(), " to ", new_password, " ?\n");
   bool istrue = true;
   while (istrue) {
     int input = C::Get_Input_Yes_Or_No();
@@ -467,7 +462,7 @@ void Service_Manager::Modify_Password(User_List *list, int Current_UserID)
         istrue = false;
         break;
       case 1:
-        std::cout << "\n" << GetUser->getPassword() << " changed to " << new_password << "\n";
+        C::PTC("\n", GetUser->getPassword(), " changed to ", new_password, "\n");
         GetUser->setPassword(new_password);
         istrue = false;
         break;
@@ -481,8 +476,7 @@ void Service_Manager::Delete_Account(User_List *list, int Current_UserID)
 {
   User *GetUser = User_List::Get_User_By_ID(list, Current_UserID);
 
-  std::cout << "\nAre you sure you want to delete " << GetUser->getUsername() << "; Unique ID: "
-            << GetUser->getUniqueId() << "?\n";
+  C::PTC("\nAre you sure you want to delete ", GetUser->getUsername(), "; Unique ID: ", GetUser->getUniqueId(), "?\n");
   bool istrue = true;
   while (istrue) {
     int input = C::Get_Input_Yes_Or_No();
@@ -491,7 +485,7 @@ void Service_Manager::Delete_Account(User_List *list, int Current_UserID)
         istrue = false;
         break;
       case 1:
-        std::cout << "\n" << GetUser->getUsername() << " has been deleted! \n";
+        C::PTC("\n", GetUser->getUsername(), " has been deleted! \n");
         User_List::Delete_Current_User_By_ID(list, Current_UserID);
         Data_Manager::setCurrent_User_ID(0);
         istrue = false;
@@ -500,7 +494,7 @@ void Service_Manager::Delete_Account(User_List *list, int Current_UserID)
         break;
     }
   }
-  if (Current_UserID != 1) {
-    Current_UserID = 0;
+  if (Data_Manager::getCurrent_User_ID() != Current_UserID) {
+    Data_Manager::setCurrent_User_ID(0);
   }
 }

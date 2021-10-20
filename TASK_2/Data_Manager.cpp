@@ -45,6 +45,7 @@ Data_Manager::Data_Manager()
 
 void Data_Manager::Generate_Total_Storage_Amount()
 { //This is the main function which generates a random amount of total storage.
+  srand(time(nullptr)); //We use this command from the cstdlib to make every use of rand() command non-sequential.
   static int *RND = new int; //Create a new pointer and allocate it to heap.
   *RND = ((rand() % 100000) + 100000); //Allocate a randomly generated amount into the allocated memory slot.
   setTotal_Storage_Amount(

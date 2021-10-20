@@ -1,5 +1,14 @@
 #include "Console.h"
 
+//Console::Console(Logging* PTR):logfilePTR(PTR){
+//}
+
+//void Console::getLogFromLogging(std::fstream* logfile){
+//  log = logfile;
+//}
+
+
+
 //Printing to console functions:
 void Console::PTC(const std::string &Print)
 {
@@ -16,9 +25,22 @@ void Console::PTC(const std::string &Print1, int count, const std::string &Print
   std::cout << Print1 << count << Print2;
 }
 
+void Console::PTC(const std::string &Print1, int count,
+                  const std::string &Print2, const std::string &Print3, const std::string &Print4)
+{
+  std::cout << Print1 << count << Print2 << Print3 << Print4;
+}
+
 void Console::PTC(const std::string &Print1, const std::string &Print2, const std::string &Print3)
 {
   std::cout << Print1 << Print2 << Print3;
+}
+
+void Console::PTC(const std::string &Print1, const std::string &Print2,
+                  const std::string &Print3, const std::string &Print4,
+                  const std::string &Print5)
+{
+  std::cout << Print1 << Print2 << Print3 << Print4 << Print5;
 }
 
 void
@@ -27,9 +49,30 @@ Console::PTC(const std::string &Print1, int count1, const std::string &Print2, i
   std::cout << Print1 << count1 << Print2 << count2 << Print3;
 }
 
+void Console::PTC(const std::string &Print1, const std::string &Print2, const std::string &Print3, int count,
+                  const std::string &Print4)
+{
+  std::cout << Print1 << Print2 << Print3 << count << Print4;
+}
+
 void Console::PTC(int n)
 {
   std::cout << n;
+}
+
+void Console::PTC(float float1)
+{
+  std::cout << float1;
+}
+
+void Console::PTC(float float1, int setPrecision)
+{
+  std::cout << std::setprecision(setPrecision) << float1;
+}
+
+void Console::PTC(float float1, int setPrecision, const std::string &Print1)
+{
+  std::cout << std::setprecision(setPrecision) << float1 << Print1;
 }
 
 void Console::PrintUserWithCount(int Count, const std::string &Print)
@@ -38,6 +81,12 @@ void Console::PrintUserWithCount(int Count, const std::string &Print)
 }
 
 //Getting Input from User functions:
+
+void Console::GIBS(std::string &string)
+{
+  std::cin >> string;
+}
+
 int Console::Get_Input_By_INT() //Function can return any integer.
 {
   std::string input; //Crate a variable where the user can input anything.
@@ -93,24 +142,3 @@ Console::Get_Input_Yes_Or_No() //Utilize Get_Input_By_INT with min and max param
       break;
   }
 }
-//WIP
-//int Console::Login_Prompt(User_List* list){
-//    PTC("\nTo proceed you must login or create a new account.\n", "\n(0) To exit /or/ (1) Login in; (2) Create new account;\n");
-//    int input = Get_Input_By_INT();
-//
-//    switch(input){
-//        case 0:
-//            PTC("\nExiting!\n");
-//            break;
-//            //return 0;
-//        case 1:
-//            PTC("\nLogin selected!\n");
-//            UserLogin(list);
-//        case 2:
-//            PTC("\nCreate new account selected!\n");
-//            Create_User(list);
-//        default:
-//            PTC("\nError!\n");
-//            break;
-//    }
-//}

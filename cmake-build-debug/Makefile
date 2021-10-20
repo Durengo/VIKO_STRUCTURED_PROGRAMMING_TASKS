@@ -419,6 +419,21 @@ TASK_3/TASK_3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_3.dir/build.make CMakeFiles/task_3.dir/TASK_3/TASK_3.cpp.s
 .PHONY : TASK_3/TASK_3.cpp.s
 
+# target to build an object file
+cmake_pch.hxx.gch:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T2.dir/build.make CMakeFiles/T2.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T2.dir/build.make CMakeFiles/T2.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/T2.dir/build.make CMakeFiles/T2.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -463,6 +478,9 @@ help:
 	@echo "... TASK_3/TASK_3.o"
 	@echo "... TASK_3/TASK_3.i"
 	@echo "... TASK_3/TASK_3.s"
+	@echo "... cmake_pch.hxx.gch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 .PHONY : help
 
 

@@ -24,6 +24,9 @@ void setGlobalTick(int T)
     case 6:
       Login_Logout_Test();
       return;
+    case 7:
+      Logging_Test();
+      return;
     default:
       return;
   }
@@ -272,6 +275,13 @@ void Login_Logout_Test()
   User_List::Display_List(TestUserList);
   C::PTC("\nCurrent user username: ", Data_Manager::getCurrent_User_Username(), "\n");
   C::PTC("\nCurrent user ID: ", Data_Manager::getCurrent_User_ID(), "\n");
+}
 
-
+void Logging_Test()
+{
+  C::PTC("\nS\n");
+  Logging log;
+  //std::cin.get();
+  //log.Log_Action();
+  //log.Read_Log();
 }

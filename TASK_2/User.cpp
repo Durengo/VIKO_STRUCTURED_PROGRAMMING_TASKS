@@ -7,14 +7,14 @@ User::User() //When the User constructor is called variables are initialized wit
 {
   Data_Manager::addToTotal_Users();
   Unique_ID = Data_Manager::getTotal_Users();
-  Console::PTC("\n!Constructor! Total: ", Data_Manager::getTotal_Users(), "\n"); //For debugging.
+  C::PTC("\n!Constructor! Total: ", Data_Manager::getTotal_Users(), "\n"); //For debugging.
 }
 
 User::~User()
 { //Each time the destructor is called reduce the total amount of users by 1.
   Data_Manager::subtractFromTotal_Users();
   Free_Deleted_User_Services();
-  Console::PTC("\n!Destructor! Total: ", Data_Manager::getTotal_Users(), "\n"); //For debugging.
+  C::PTC("\n!Destructor! Total: ", Data_Manager::getTotal_Users(), "\n"); //For debugging.
 }
 
 void User::setUsername(const std::string &username)
@@ -95,7 +95,7 @@ void User::addCloudStorageAmount(int amount) //Simple function for adding the to
 void User::removeCloudStorageAmount(int amount)
 {
   if (amount > *Cloud_Storage_Amount) {
-    std::cout << "\nCannot remove more than the used amount!\n"; //Just in case ;)
+    C::PTC("\nCannot remove more than the used amount!\n"); //Just in case ;)
     return;
   } else {
     *Cloud_Storage_Amount = *Cloud_Storage_Amount - amount;
@@ -135,9 +135,9 @@ User::printCloudStorageAmountUsedByUser() const //Function to print how much of 
 {
   if (Cloud_Storage_Amount == nullptr || *Cloud_Storage_Amount ==
                                          0) { //If the specified storage has not been allocated to memory then print 0. The second condition shouldn't be ever check, but I put it there just in case.
-    std::cout << "\nCloud storage amount used: 0TB.\n";
+    C::PTC("\nCloud storage amount used: 0TB.\n");
   } else {
-    std::cout << "\nCloud storage amount used: " << getCloudStorageAmountAsInt() << "TB.\n";
+    C::PTC("\nCloud storage amount used: ", getCloudStorageAmountAsInt(), "TB.\n");
   }
 }
 
@@ -149,7 +149,7 @@ void User::addCloudDatabaseAmount(int amount)
 void User::removeCloudDatabaseAmount(int amount)
 {
   if (amount > *Cloud_Database_Amount) {
-    std::cout << "\nCannot remove more than the used amount!\n";
+    C::PTC("\nCannot remove more than the used amount!\n");
     return;
   } else {
     *Cloud_Database_Amount = *Cloud_Database_Amount - amount;
@@ -185,9 +185,9 @@ int User::getCloudDatabaseAmountAsInt() const
 void User::printCloudDatabaseAmountUsedByUser() const
 {
   if (Cloud_Database_Amount == nullptr || *Cloud_Database_Amount == 0) {
-    std::cout << "\nCloud database amount used: 0TB.\n";
+    C::PTC("\nCloud database amount used: 0TB.\n");
   } else {
-    std::cout << "\nCloud database amount used: " << getCloudDatabaseAmountAsInt() << "TB.\n";
+    C::PTC("\nCloud database amount used: ", getCloudDatabaseAmountAsInt(), "TB.\n");
   }
 }
 
@@ -199,7 +199,7 @@ void User::addCloudBandwidthAmount(int amount)
 void User::removeCloudBandwidthAmount(int amount)
 {
   if (amount > *Cloud_Bandwidth_Amount) {
-    std::cout << "\nCannot remove more than the used amount!\n";
+    C::PTC("\nCannot remove more than the used amount!\n");
     return;
   } else {
     *Cloud_Bandwidth_Amount = *Cloud_Bandwidth_Amount - amount;
@@ -235,8 +235,8 @@ int User::getCloudBandwidthAmountAsInt() const
 void User::printCloudBandwidthAmountUsedByUser() const
 {
   if (Cloud_Bandwidth_Amount == nullptr || *Cloud_Bandwidth_Amount == 0) {
-    std::cout << "\nCloud bandwidth amount used: 0TB.\n";
+    C::PTC("\nCloud bandwidth amount used: 0TB.\n");
   } else {
-    std::cout << "\nCloud Bandwidth amount used: " << getCloudBandwidthAmountAsInt() << "TB.\n";
+    C::PTC("\nCloud Bandwidth amount used: ", getCloudBandwidthAmountAsInt(), "TB.\n");
   }
 }
